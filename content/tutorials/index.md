@@ -216,7 +216,7 @@ alt="Tree" >}}
 
       nodeEnter
       .append("a")
-      .attr("xlink:href", function (d) { return "http://opendata.atlas.cern/tutorials/" + d.id; + "/" })
+      .attr("xlink:href", function (d) { return "http://opendata.atlas.cern/tutorials/" + d.id; + "/index.html" })
       .append("rect")
       .attr("class", "clickable")
       .attr("y", -8)
